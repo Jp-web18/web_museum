@@ -1,5 +1,6 @@
 /* Global styles */
-html, body {
+html,
+body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: #2f2f2f;
@@ -7,12 +8,11 @@ html, body {
   padding: 0;
 }
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 header {
-  background: linear-gradient(to right, #FFCC00, 
-  #000000, #FF0000, #FFFFFF);
+  background: linear-gradient(to right, #ffcc00, #000000, #ff0000, #ffffff);
   padding: 20px;
   text-align: center;
   border-bottom: 5px solid #000;
@@ -36,7 +36,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #FFD700;
+  color: #ffd700;
 }
 
 section {
@@ -46,34 +46,31 @@ section {
 }
 
 section h2 {
-  color: #FFCC00;
+  color: #ffcc00;
 }
 
 #weapons {
-  background: linear-gradient(to right, #FFCC00, #000000);
+  background: linear-gradient(to right, #ffcc00, #000000);
   padding: 40px;
 }
 
-
-
-
 #hunting-tools {
-  background: linear-gradient(to right, #FFCC00, #FF0000);
+  background: linear-gradient(to right, #ffcc00, #ff0000);
   padding: 40px;
 }
 
 #culture {
-  background: linear-gradient(to right, #000000, #FFCC00);
+  background: linear-gradient(to right, #000000, #ffcc00);
   padding: 40px;
 }
 
 #paintings {
-  background: linear-gradient(to right, #FF0000, #FFFFFF);
+  background: linear-gradient(to right, #ff0000, #ffffff);
   padding: 40px;
 }
 
 #people {
-  background: linear-gradient(to right, #FF0000, #FFFFFF);
+  background: linear-gradient(to right, #ff0000, #ffffff);
   padding: 40px;
 }
 
@@ -90,4 +87,3 @@ section:hover {
   transform: scale(1.02);
   transition: transform 0.3s ease;
 }
-//
