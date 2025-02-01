@@ -22,6 +22,12 @@ header {
   color: white;
   padding: 20px;
   text-align: center;
+  font-size: 1.2em; /* Increased font size for better visibility */
+}
+
+header h1 {
+  color: white;
+  margin: 0; /* Remove default margin */
 }
 
 nav ul {
@@ -40,6 +46,13 @@ nav ul li a {
   font-weight: bold;
 }
 
+#weapons {
+  background-color: #ffcc00;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.5em;
+}
 /* Grid Layout for Weapons */
 .weapon-grid {
   display: grid;
