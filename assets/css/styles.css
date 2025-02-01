@@ -29,10 +29,12 @@ header {
 
 
 nav {
-  position: absolute;
-  top: 30px;
-  right: 50px; /* Moves the nav to the right */
+  position: fixed; /* Keeps the nav visible when scrolling */
+  top: 30px;       /* Adjust vertical position */
+  right: 50px;     /* Moves the nav to the right */
+  z-index: 1000;   /* Ensure it stays on top of other elements */
 }
+
 
 nav ul {
   list-style: none;
@@ -126,7 +128,7 @@ section h2 {
 
 #people {
   background: 
-  url('/assets/photos/backgrounds/people_back.jpg');
+  url('/assets/photos/backgrounds/people_back_main.jpg');
   background-size: cover;
   background-position: center;
   padding: 40px;
