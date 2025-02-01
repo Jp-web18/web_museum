@@ -19,6 +19,10 @@ document.getElementById("paintings").onclick = function () {
   window.location.href = "paintings.html"; // Redirects to the target page
 };
 
+document.getElementById("paintings").onclick = function () {
+  window.location.href = "people.html"; // Redirects to the target page
+};
+
 
 // FUNCTION TO HANDLE THE NAVIGATION MENU
 // Function to handle delayed appearance of elements
