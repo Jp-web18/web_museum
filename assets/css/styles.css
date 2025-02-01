@@ -45,8 +45,9 @@ nav ul {
 nav li {
   display: inline;
   padding: 10px;
-  background-color: #2f2f2f;
-  border-radius: 30px;
+  background-color: rgba(47, 47, 47, 0.7); /* 50% transparent */
+  border-radius: 20px;
+    
 }
 
 nav a {
@@ -151,7 +152,7 @@ section h2 {
 
 #paintings h2,
 #paintings p {
-  color: black;
+  color: yellow;
 }
 
 #people {
@@ -169,11 +170,12 @@ footer {
   margin-top: auto;
 }
 
-#weapons {
+/* #weapons {
   background-color: #2f2f2f;
 }
 
 #weapons .journal_images img {
   width: 100px;
   height: auto;
-}
+} */
+
