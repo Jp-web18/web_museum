@@ -106,54 +106,6 @@ body {
   cursor: pointer;
 }
 
-.overlay div .round-button:nth-child(2) {
-  margin-left: auto;
-  margin-right: 0.7em;
-}
-.round-button {
-  width: 2.4em;
-  height: 2.4em;
-  border: none;
-  border-radius: 50%;
-  display: grid;
-  place-items: center;
-  opacity: 0.8;
-}
-
-.round-button img {
-  width: 60%;
-  height: 60%;
-}
-
-.spheric-button {
-  height: ;
-  border-radius: 50px;
-  border: none;
-  padding: 0.5em 01.25em;
-  opacity: 0.8;
-  font-weight: 800;
-}
-
-.spheric-button:hover,
-.round-button:hover {
-  opacity: 1;
-  cursor: pointer;
-}
-
-.save {
-  padding: 1em 1.5em;
-  border: none;
-  border-radius: 50px;
-  color: white;
-  font-weight: 900;
-  cursor: pointer;
-  background-color: var(--red);
-}
-
-.save:hover {
-  background-color: #ad081b;
-}
-
 @media (max-width: 1050px) {
   .container {
     grid-template-columns: repeat(3, 1fr);
