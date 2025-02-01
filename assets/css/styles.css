@@ -173,4 +173,10 @@ footer {
   margin-top: auto;
 }
 
+#weapons {
+  background-color: #2f2f2f;
+}
 
+#weapons .journal_images img {
+  width: 100px;
+  height: auto;
