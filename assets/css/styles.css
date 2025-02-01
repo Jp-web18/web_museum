@@ -45,8 +45,9 @@ nav ul {
 nav li {
   display: inline;
   padding: 10px;
-  background-color: #2f2f2f;
+  background-color: rgba(47, 47, 47, 0.7); /* 50% transparent */
   border-radius: 20px;
+    
 }
 
 nav a {
@@ -178,6 +179,5 @@ footer {
   height: auto;
 <<<<<<< HEAD
 } */
-=======
-}
+
 >>>>>>> 77152926d9b8395136c97f577ade8f7010ed5748
