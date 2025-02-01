@@ -50,9 +50,7 @@ section h2 {
 }
 
 #weapons {
-  background: url('/assets/photos/wall_back.jpg');
-  background-size: cover;
-  background-position: center;
+  background: linear-gradient(to right, #ffcc00, #000000);
   padding: 40px;
 }
 
