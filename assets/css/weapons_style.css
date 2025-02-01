@@ -18,7 +18,7 @@ footer {
   text-align: center;
   padding: 30px;
   width: 100%;
-  margin-top: auto;
+  margin-top: 3rem;
 }
 
 * {
@@ -26,7 +26,6 @@ footer {
   margin: 0;
   box-sizing: border-box;
   --red: #e60023;
-  /**/
 }
 
 body,
@@ -91,6 +90,7 @@ body {
   padding: 0.75em;
   color: white;
   opacity: 0;
+  transition: 0.4s ease-in-out;
 }
 
 .overlay:hover {
