@@ -119,6 +119,21 @@ section h2 {
   background-position: center;
 }
 
+#clothing {
+  background: 
+  url('/assets/photos/backgrounds/clothing_back.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 40px;
+}
+
+#musical_instruments {
+  background: 
+  url('/assets/photos/backgrounds/music_instrument_back.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 40px;
+}
 
 #culture {
   background: 
