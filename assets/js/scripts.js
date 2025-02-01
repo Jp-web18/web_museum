@@ -1,7 +1,26 @@
+// FUNCTIONS TO HANDLE THE NAVIGATION CLICKS
 document.getElementById("weapons").onclick = function () {
   window.location.href = "weapons.html"; // Redirects to the target page
 };
 
+document.getElementById("clothing").onclick = function () {
+  window.location.href = "clothing.html"; // Redirects to the target page
+};
+
+document.getElementById("musical_instruments").onclick = function () {
+  window.location.href = "musical.html"; // Redirects to the target page
+};
+
+document.getElementById("culture").onclick = function () {
+  window.location.href = "culture.html"; // Redirects to the target page
+};
+
+document.getElementById("paintings").onclick = function () {
+  window.location.href = "paintings.html"; // Redirects to the target page
+};
+
+
+// FUNCTION TO HANDLE THE NAVIGATION MENU
 // Function to handle delayed appearance of elements
 const revealElements = () => {
   const elements = document.querySelectorAll(".hidden"); // Select all elements with the 'hidden' class
