@@ -87,4 +87,12 @@ section:hover {
   transform: scale(1.02);
   transition: transform 0.3s ease;
 }
-/**/
+/* 
+#weapons {
+  background-color: #2f2f2f;
+}
+
+#weapons .journal_images img {
+  width: 100px;
+  height: auto;
+} */
