@@ -7,17 +7,21 @@ body {
   color: white;
   padding: 0;
 }
+
 html {
   scroll-behavior: smooth;
 }
 
 header {
+  height: 100vh;
   background: linear-gradient(to right, #ffcc00, 
   #000000, #ff0000, #ffffff);
   padding: 20px;
   text-align: center;
   border-bottom: 5px solid #000;
 }
+
+
 
 nav ul {
   list-style-type: none;
