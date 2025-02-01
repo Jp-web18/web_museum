@@ -87,8 +87,4 @@ footer {
   margin-top: auto;
 }
 
-/* Hover effect for sections */
-section:hover {
-  transform: scale(1.02);
-  transition: transform 0.3s ease;
-}
+
