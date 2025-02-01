@@ -31,7 +31,7 @@ const revealElements = () => {
 
   const options = {
     root: null, // Use the viewport as the root
-    threshold: 0.2, // Trigger the animation when 20% of the element is in view
+    threshold: 0.3, // Trigger the animation when 20% of the element is in view
   };
 
   const observer = new IntersectionObserver((entries, observer) => {
