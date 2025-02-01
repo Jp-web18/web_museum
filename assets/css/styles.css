@@ -86,24 +86,39 @@ h1 {
 
 
 
+/* Initially, the content is hidden */
+.hidden {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+/* When the content is visible, apply the effect */
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Basic section styling */
 section {
   height: 100vh;
   padding: 40px;
   text-align: left;
 }
 
+/* Basic section heading styling */
 section h2 {
   color: #ffcc00;
 }
 
-/* comments */
+/* Example background for section */
 #weapons {
   background: 
   url('/assets/photos/backgrounds/Kaamulan_Festival_-_Battle_Cry.jpg');
   background-size: cover;
   background-position: center;
-  padding: 40px;
 }
+
 
 #culture {
   background: 
