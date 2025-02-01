@@ -15,8 +15,7 @@ html {
 /* header styles */
 header {
   height: 100vh;
-  background-image: 
-  url('/assets/photos/backgrounds/bsu.jpg'); /* Replace with your image URL */
+  background-image: url("/assets/photos/backgrounds/bsu.jpg"); /* Replace with your image URL */
   background-size: cover; /* Ensures the image covers the entire header */
   background-position: center center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents the image from repeating */
@@ -28,14 +27,12 @@ header {
   align-items: center;
 }
 
-
 nav {
   position: fixed; /* Keeps the nav visible when scrolling */
-  top: 30px;       /* Adjust vertical position */
-  right: 50px;     /* Moves the nav to the right */
-  z-index: 1000;   /* Ensure it stays on top of other elements */
+  top: 30px; /* Adjust vertical position */
+  right: 50px; /* Moves the nav to the right */
+  z-index: 1000; /* Ensure it stays on top of other elements */
 }
-
 
 nav ul {
   list-style: none;
@@ -57,7 +54,7 @@ nav a {
   color: white;
 }
 
-/* Responsive adjustments */
+/* Responsive adjustmentss */
 @media (max-width: 768px) {
   header {
     height: auto; /* Adjust height for smaller screens */
@@ -85,14 +82,11 @@ nav a {
   }
 }
 
-
 h1 {
   margin: 0;
   font-size: 3rem; /* Adjust this value to your preference */
   font-family: Arial, Helvetica, sans-serif;
 }
-
-
 
 /* Initially, the content is hidden */
 .hidden {
@@ -121,31 +115,27 @@ section h2 {
 
 /* Example background for section */
 #weapons {
-  background: 
-  url('/assets/photos/backgrounds/Kaamulan_Festival_-_Battle_Cry.jpg');
+  background: url("/assets/photos/backgrounds/Kaamulan_Festival_-_Battle_Cry.jpg");
   background-size: cover;
   background-position: center;
 }
 
 #clothing {
-  background: 
-  url('/assets/photos/backgrounds/clothing_back.jpg');
+  background: url("/assets/photos/backgrounds/clothing_back.jpg");
   background-size: cover;
   background-position: center;
   padding: 40px;
 }
 
 #musical_instruments {
-  background: 
-  url('/assets/photos/backgrounds/music_instrument_back.jpg');
+  background: url("/assets/photos/backgrounds/music_instrument_back.jpg");
   background-size: cover;
   background-position: center;
   padding: 40px;
 }
 
 #culture {
-  background: 
-  url('/assets/photos/backgrounds/culture_back.jpg');
+  background: url("/assets/photos/backgrounds/culture_back.jpg");
   background-size: cover;
   background-position: center;
   padding: 40px;
@@ -153,20 +143,19 @@ section h2 {
 
 #paintings {
   /* color: #000000; */
-  background: 
-  url('/assets/photos/backgrounds/paintings_back.jpg');
+  background: url("/assets/photos/backgrounds/paintings_back.jpg");
   background-size: cover;
   background-position: center;
   padding: 40px;
 }
 
-#paintings h2, #paintings p {
+#paintings h2,
+#paintings p {
   color: black;
 }
 
 #people {
-  background: 
-  url('/assets/photos/backgrounds/people_back_main.jpg');
+  background: url("/assets/photos/backgrounds/people_back_main.jpg");
   background-size: cover;
   background-position: center;
   padding: 40px;
@@ -187,4 +176,8 @@ footer {
 #weapons .journal_images img {
   width: 100px;
   height: auto;
+<<<<<<< HEAD
 } */
+=======
+}
+>>>>>>> 77152926d9b8395136c97f577ade8f7010ed5748
