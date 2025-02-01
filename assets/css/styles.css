@@ -14,35 +14,75 @@ html {
 
 header {
   height: 100vh;
-  background: linear-gradient(to right, #ffcc00, 
-  #000000, #ff0000, #ffffff);
+  background-image: 
+  url('/assets/photos/backgrounds/top_mountain.jpg'); /* Replace with your image URL */
+  background-size: cover; /* Ensures the image covers the entire header */
+  background-position: center center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
   padding: 20px;
   text-align: center;
   border-bottom: 5px solid #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 
+nav {
+  position: absolute;
+  top: 30px;
+  right: 50px; /* Moves the nav to the right */
+}
 
 nav ul {
-  list-style-type: none;
+  list-style: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  gap: 40px;
 }
 
-nav ul li {
-  display: inline;
-  margin: 0 10px;
-}
-
-nav ul li a {
-  color: white;
+nav a {
   text-decoration: none;
-  font-weight: bold;
+  color: white;
 }
 
-nav ul li a:hover {
-  color: #ffd700;
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  header {
+    height: auto; /* Adjust height for smaller screens */
+  }
+
+  nav {
+    position: static; /* Remove absolute positioning on smaller screens */
+    margin-top: 20px;
+  }
+
+  nav ul {
+    flex-direction: column; /* Stack navigation items vertically */
+    gap: 20px;
+    align-items: center; /* Center items in the nav */
+  }
+
+  nav a {
+    font-size: 18px; /* Adjust font size for smaller screens */
+  }
 }
+
+@media (max-width: 480px) {
+  nav a {
+    font-size: 16px; /* Adjust font size further for mobile devices */
+  }
+}
+
+
+h1 {
+  margin: 0;
+  font-size: 3rem; /* Adjust this value to your preference */
+}
+
+
 
 section {
   height: 100vh;
