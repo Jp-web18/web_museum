@@ -50,23 +50,12 @@ section h2 {
 }
 
 #weapons {
-<<<<<<< HEAD:assets/css/styles.css
   background: url('/assets/photos/wall_back.jpg');
   background-size: cover;
   background-position: center;
   padding: 40px;
 }
 
-
-
-
-
-=======
-  background: linear-gradient(to right, #ffcc00, #000000);
-  padding: 40px;
-}
-
->>>>>>> 7407d8345917720c7b3826f5c526733e24de085b:styles.css
 #hunting-tools {
   background: linear-gradient(to right, #ffcc00, #ff0000);
   padding: 40px;
