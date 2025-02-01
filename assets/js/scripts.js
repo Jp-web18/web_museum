@@ -19,7 +19,7 @@ document.getElementById("paintings").onclick = function () {
   window.location.href = "paintings.html"; // Redirects to the target page
 };
 
-document.getElementById("paintings").onclick = function () {
+document.getElementById("people").onclick = function () {
   window.location.href = "people.html"; // Redirects to the target page
 };
 
