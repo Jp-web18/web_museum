@@ -12,7 +12,8 @@ html {
 }
 
 header {
-  background: linear-gradient(to right, #ffcc00, #000000, #ff0000, #ffffff);
+  background: linear-gradient(to right, #ffcc00, 
+  #000000, #ff0000, #ffffff);
   padding: 20px;
   text-align: center;
   border-bottom: 5px solid #000;
@@ -51,7 +52,8 @@ section h2 {
 
 /* comments */
 #weapons {
-  background: url('/assets/photos//backgrounds/top_mountain.jpg');
+  background: 
+  url('/assets/photos/weapons/Kaamulan_Festival_-_Battle_Cry.jpg');
   background-size: cover;
   background-position: center;
   padding: 40px;
