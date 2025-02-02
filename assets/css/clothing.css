@@ -1,0 +1,17 @@
+body {
+  background: url("/assets/photos/backgrounds/storage_back.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.main-con {
+  margin-bottom: -10px;
+}
+
+.row {
+  margin-bottom: 30px;
+}
+
+/* .col {
+  border: solid 2px yellow;
+} */

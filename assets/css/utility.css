@@ -5,10 +5,10 @@ header {
   font-size: 1.2em; /* Increased font size for better visibility */
 }
 
-header h1 {
+.heading-link {
   color: black;
   margin: 0; /* Remove default margin */
-  text-decoration: none; /* Add this line to remove underline */
+  text-decoration: none;
 }
 
 /* Footer Styles */
@@ -139,4 +139,27 @@ body {
   .column:last-child {
     display: flex;
   }
+}
+
+
+.row {
+  display: flex;
+  gap: 15px; /* Adjust the gap size as needed */
+  margin: 0 15px;
+  margin-bottom: 15px;
+}
+
+.col {
+  border: solid 1px gray; 
+  height: 270px; /* Adjust the height as needed */
+  border-radius: 16px;
+  padding: 0;
+  border: none;
+}
+
+.col img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
 }

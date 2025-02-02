@@ -106,7 +106,7 @@ section {
   height: 100vh;
   padding: 40px;
   text-align: left;
-  color: yellow;
+  color: white;
 }
 
 /* Basic section heading styling */
@@ -136,7 +136,7 @@ section h2 {
 }
 
 #culture {
-  background: url("/assets/photos/backgrounds/culture_back.jpg");
+  background: url("/assets/photos/backgrounds/pamuhat.jpeg");
   background-size: cover;
   background-position: center;
   padding: 40px;
@@ -144,7 +144,7 @@ section h2 {
 
 #paintings {
   /* color: #000000; */
-  background: url("/assets/photos/backgrounds/paintings_back.jpg");
+  background: url("/assets/photos/paint.jpg");
   background-size: cover;
   background-position: center;
   padding: 40px;
