@@ -1,0 +1,17 @@
+.card {
+  width: 500px;
+  height: 530px;
+  background-color: gray;
+  padding: 15px;
+  margin-top: -70px; /* Moves the card higher by 50px */
+}
+
+
+
+.card-title {
+  font-size: 1rem; /* Smaller font size for the title */
+}
+
+.card-text {
+  font-size: 0.875rem; /* Smaller font size for the text */
+}

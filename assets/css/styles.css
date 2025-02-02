@@ -88,18 +88,17 @@ header h1 {
   color: white;
 }
 
-/* Initially, the content is hidden */
 .hidden {
   opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 1s ease, transform 1s ease;
+  visibility: hidden;
 }
 
-/* When the content is visible, apply the effect */
-.visible {
+.fade-in {
   opacity: 1;
-  transform: translateY(0);
+  visibility: visible;
+  transition: opacity 1.5s ease-in-out, visibility 1.5s ease-in-out;
 }
+
 
 /* Basic section styling */
 section {
@@ -115,34 +114,34 @@ section h2 {
 }
 
 /* Example background for section */
-#weapons {
+#weapons_description {
   background: url("/assets/photos/backgrounds/Kaamulan_Festival_-_Battle_Cry.jpg");
   background-size: cover;
   background-position: center;
 }
 
-#clothing {
+#clothing_description {
   background: url("/assets/photos/backgrounds/clothing_back.jpg");
   background-size: cover;
   background-position: center;
   padding: 40px;
 }
 
-#musical_instruments {
+#musical_instruments_description {
   background: url("/assets/photos/backgrounds/music_instrument_back.jpg");
   background-size: cover;
   background-position: center;
   padding: 40px;
 }
 
-#culture {
+#culture_description {
   background: url("/assets/photos/backgrounds/pamuhat.jpeg");
   background-size: cover;
   background-position: center;
   padding: 40px;
 }
 
-#paintings {
+#paintings_description {
   /* color: #000000; */
   background: url("/assets/photos/paint.jpg");
   background-size: cover;
@@ -155,7 +154,7 @@ section h2 {
   color: yellow;
 }
 
-#people {
+#people_description {
   background: url("/assets/photos/backgrounds/people_back_main.jpg");
   background-size: cover;
   background-position: center;
@@ -178,4 +177,7 @@ footer {
   width: 100px;
   height: auto;
 } */
+
+
+
 
