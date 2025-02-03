@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>School Museum</title>
-  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="/assets/css/color_modes_styles.css">
   <link rel="stylesheet" href="/bootstrap_utils/bootstrap-5.3.3-dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="/assets/css/index_bootstrap.css">
 </head>
@@ -57,6 +57,9 @@
         <button type="button" class="btn">
           <a href="#people_description">People</a>
         </button>
+
+        <button id="theme-toggle" class="btn">🌞 Light Mode</button>
+
       </ul>
     </nav>
 
@@ -390,6 +393,29 @@
   <footer>
     <p>© 2025 Our School Museum</p>
   </footer>
+
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const toggleBtn = document.getElementById("theme-toggle");
+      const currentTheme = localStorage.getItem("theme");
+
+      // Apply saved theme preference
+      if (currentTheme) {
+        document.documentElement.setAttribute("data-theme", currentTheme);
+        toggleBtn.textContent = currentTheme === "dark" ? "🌞 Light Mode" : "🌙 Dark Mode";
+      }
+
+      // Toggle theme on button click
+      toggleBtn.addEventListener("click", function () {
+        let newTheme = document.documentElement.getAttribute("data-theme") === "dark" ? "light" : "dark";
+        document.documentElement.setAttribute("data-theme", newTheme);
+        localStorage.setItem("theme", newTheme);
+        toggleBtn.textContent = newTheme === "dark" ? "🌞 Light Mode" : "🌙 Dark Mode";
+      });
+    });
+  </script>
+
 
   <script src="/assets/js/scripts.js"></script>
   <script src="/bootstrap_utils/bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>

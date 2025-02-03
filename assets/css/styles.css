@@ -45,7 +45,7 @@ nav ul {
 
 ul .btn {
   display: inline;
-  background-color: rgba(47, 47, 47, 0.8); /* 50% transparent */
+  background-color: rgba(47, 47, 47, 0.8);
 }
 
 nav a {
@@ -161,7 +161,7 @@ section h2 {
 
 #paintings_description {
   /* color: #000000; */
-  background: url("/assets/photos/paint.jpg");
+  background: url("/assets/photos/backgrounds/paint.jpg");
   background-size: cover;
   background-position: center;
   padding: 40px;
@@ -197,5 +197,18 @@ footer {
 } */
 
 
+/* :root {
+    --bg-color: rgb(255, 255, 255); 
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: rgb(20, 20, 20);
+    }
+}
+
+body {
+    background-color: var(--bg-color);
+} */
 
 
