@@ -1,12 +1,23 @@
 .card {
-  width: 500px;
+  width: 700px;
   height: 530px;
   background-color: gray;
-  padding: 15px;
-  margin-top: -70px; /* Moves the card higher by 50px */
+  padding: 18px;
+  margin-top: -90px; /* Moves the card higher by 50px */
+  background-color: transparent; /* Transparent background */
+  border: none; /* Remove border */
+  color: white; /* Text color */
 }
 
+.card img {
+  width: 50%;
+  height: 50%;
+  float: right; 
+}
 
+.card-body button{
+  float: right;
+}
 
 .card-title {
   font-size: 1rem; /* Smaller font size for the title */

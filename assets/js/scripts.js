@@ -18,8 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
   elements.forEach(element => observer.observe(element));
 });
 
-
-
 // Navigation Click Handlers
 const sections = [
   { id: "weapons", page: "weapons.html" },
@@ -38,3 +36,13 @@ sections.forEach(({ id, page }) => {
     });
   }
 });
+
+
+function toggleMenu() {
+  const menu = document.getElementById('menu');
+  if (menu.style.display === 'none' || menu.style.display === '') {
+    menu.style.display = 'flex';
+  } else {
+    menu.style.display = 'none';
+  }
+}
