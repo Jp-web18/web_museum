@@ -45,7 +45,7 @@ nav ul {
 
 ul .btn {
   display: inline;
-  background-color: rgba(47, 47, 47, 0.7); /* 50% transparent */
+  background-color: rgba(47, 47, 47, 0.8); /* 50% transparent */
 }
 
 nav a {
@@ -108,9 +108,27 @@ section {
   color: white;
 }
 
+.header-botton {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.7); /* Black color with slight transparency */
+  width: 420px;
+  box-sizing: border-box;
+  margin-left: -18px;
+  padding: 20px;
+  border-radius: 18px;
+}
+
 /* Basic section heading styling */
 section h2 {
   color: #ffcc00;
+  margin-top: 30px;
+  /* padding-bottom: 50px; */
+}
+
+#developers {
+  background: url("/assets/photos/backgrounds/wall_back.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 /* Example background for section */

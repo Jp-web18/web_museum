@@ -1,28 +1,36 @@
+
+
 .card {
-  width: 700px;
-  height: 530px;
+  background-color: transparent;
+}
+
+.card-body {
+  width: 460px;
+  height: 480px;
   background-color: gray;
-  padding: 18px;
-  margin-top: -90px; /* Moves the card higher by 50px */
-  background-color: transparent; /* Transparent background */
+  padding: 20px;
+  margin-top: -140px; /* Moves the card higher by 50px */
+  background-color: rgba(0, 0, 0, 0.9); /* Black color with slight transparency */
   border: none; /* Remove border */
   color: white; /* Text color */
+  box-sizing: border-box;
+  border-radius: 18px; /* Rounded corners */
 }
 
-.card img {
-  width: 50%;
-  height: 50%;
-  float: right; 
-}
-
-.card-body button{
+.card-body button {
   float: right;
 }
 
 .card-title {
-  font-size: 1rem; /* Smaller font size for the title */
+  font-size: 2.5rem; /* Slightly bigger font size for the title */
 }
 
 .card-text {
-  font-size: 0.875rem; /* Smaller font size for the text */
+  font-size: 1rem; /* Slightly bigger font size for the text */
+}
+
+
+.custom-button a {
+  color: white;
+  text-decoration: none;
 }
