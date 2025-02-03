@@ -15,13 +15,19 @@
 
 /***** Override Theme When User Manually Switches *****/
 [data-theme="light"] {
-  --bg-color: rgb(255, 255, 255);  /* Light Mode */
+  --bg-color: rgb(255, 255, 255, 0.9);  /* Light Mode */
   --text-color: rgb(0, 0, 0);
-  --header-bg: rgba(255, 255, 255);
+  --header-bg: rgba(255, 255, 255, 0.9);
+  /* Ensure button text is dark in light mode */
+  .custom-button a {
+    background-color: rgb(255, 255, 255) !important; /* Adjust this color to your preference */
+    border-color: rgb(20, 20, 20) !important;
+    color: rgb(20, 20, 20) !important; /* Ensure button text is dark in light mode */
+  }
 }
 
 [data-theme="dark"] {
-  --bg-color: rgb(20, 20, 20);  /* Dark Mode */
+  --bg-color: rgb(20, 20, 20, 0.9);  /* Dark Mode */
   --text-color: white;
   --header-bg: rgba(0, 0, 0, 0.7);
 }
@@ -211,16 +217,29 @@ section h2 {
   padding: 40px;
 }
 
+/* Ensuring consistent background for the entire card */
 .card {
   background-color: var(--bg-color) !important;
   color: var(--text-color) !important;
   border: 1px solid rgba(255, 255, 255, 0.1); /* Optional border */
 }
 
+.card-header {
+  background-color: var(--bg-color) !important;  /* Explicitly setting background for card header */
+  color: var(--text-color) !important;
+}
+
 .card-body {
   background-color: var(--bg-color) !important;
   color: var(--text-color) !important;
 }
+
+/* Optional: If you have card titles or headers, make sure they're styled the same */
+/* .card-title {
+  background-color: var(--bg-color) !important;
+  color: var(--text-color) !important;
+} */
+
 
 .btn-primary {
   background-color: var(--header-bg) !important;
