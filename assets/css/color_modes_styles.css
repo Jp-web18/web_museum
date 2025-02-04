@@ -15,7 +15,7 @@
 
 /***** Override Theme When User Manually Switches *****/
 [data-theme="light"] {
-  --bg-color: rgb(255, 255, 255, 0.9);  /* Light Mode */
+  --bg-color: rgb(255, 255, 255, 0.8);  /* Light Mode */
   --text-color: rgb(0, 0, 0);
   --header-bg: rgba(255, 255, 255, 0.9);
   /* Ensure button text is dark in light mode */
@@ -31,7 +31,7 @@
 [data-theme="dark"] {
   --bg-color: rgb(20, 20, 20, 0.8);  /* Dark Mode */
   --text-color: white;
-  --header-bg: rgba(0, 0, 0, 0.7);
+  --header-bg: rgba(0, 0, 0, 0.8);
 
   .flex-column a {
     color: white !important;
