@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Navigation Click Handlers
 const sections = [
-  { id: "weapons", page: "/bootstrap-5.3.3-examples/album/clothing.html" },
+  { id: "weapons", page: "/bootstrap-5.3.3-examples/album/weapons.html" },
   { id: "clothing", page: "/bootstrap-5.3.3-examples/album/clothing.html" },
   { id: "musical_instruments", page: "musical.html" },
   { id: "culture", page: "culture.html" },
