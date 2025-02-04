@@ -24,12 +24,22 @@
     border-color: rgb(20, 20, 20) !important;
     color: rgb(20, 20, 20) !important; /* Ensure button text is dark in light mode */
   }
+
+  
 }
 
 [data-theme="dark"] {
-  --bg-color: rgb(20, 20, 20, 0.9);  /* Dark Mode */
+  --bg-color: rgb(20, 20, 20, 0.8);  /* Dark Mode */
   --text-color: white;
   --header-bg: rgba(0, 0, 0, 0.7);
+
+  .flex-column a {
+    color: white !important;
+  }
+
+  .cutom-colo-modes {
+    color: white !important;
+  }
 }
 
 /* Apply the background and text colors globally */
@@ -157,6 +167,7 @@ section {
   margin-left: -18px;
   padding: 20px;
   border-radius: 18px;
+  margin-top: 50px;
 }
 
 /* Section heading styles */
@@ -264,10 +275,24 @@ section h2 {
 }
 
 /* Footer */
-footer {
+.container-footer {
   background-color: var(--bg-color);
   color: var(--text-color);
   text-align: center;
   padding: 30px;
   margin-top: auto;
 }
+/* 
+[data-theme="light"] .container-footer {
+  background-color: rgb(255, 255, 255) !important;
+  color: rgb(0, 0, 0) !important;
+}
+
+[data-theme="dark"] .container-footer {
+  background-color: rgb(20, 20, 20) !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+.container-footer, .container-footer * {
+  color: var(--text-color) !important;
+} */
