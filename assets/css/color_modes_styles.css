@@ -249,6 +249,15 @@ section h2 {
 .card-body {
   background-color: var(--bg-color) !important;
   color: var(--text-color) !important;
+  width: 560px;
+  height: 640px;
+  /* background-color: gray; */
+  padding: 25px 25px; /* Padding inside the card */
+  margin-top: -60px;
+  border: none; /* Remove border */
+  color: white; /* Text color */
+  box-sizing: border-box;
+  border-radius: 18px; /* Rounded corners */
 }
 
 /* Optional: If you have card titles or headers, make sure they're styled the same */
