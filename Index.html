@@ -91,9 +91,18 @@
 
 <body>
 
-  <header>
+  <header id="top_portion">
 
+    <!-- <style>
+      .inline-nav {
+        /* display: flex; */
+        display: inline !important;
+      }
 
+      .custom-color-modes {
+        margin-left: 20px;
+      }
+    </style> -->
     <nav>
       <ul>
         <button type="button" class="btn">
@@ -106,7 +115,7 @@
           <a href="#musical_instruments_description">Musical Instruments</a>
         </button>
         <button type="button" class="btn">
-          <a href="#culture_description">Culture</a>
+          <a href="#culture_description">Culture & Artifacts</a>
         </button>
         <button type="button" class="btn">
           <a href="#paintings_description">Paintings</a>
@@ -115,7 +124,10 @@
           <a href="#people_description">People</a>
         </button>
 
-        <button id="theme-toggle" class="btn cutom-colo-modes">🌞</button>
+        <button class="btn custom-color-modes">🌞</button>
+
+
+        <!-- <button id="theme-toggle" class="btn custom-color-modes">🌞</button> -->
 
       </ul>
     </nav>
@@ -135,9 +147,6 @@
   </section>
 
 
-
-
-
   <section id="weapons_description">
     <div class="header-botton hidden">
       <h2 class="hidden">Weapons & Hunting Tools</h2>
@@ -146,12 +155,17 @@
       <p class="d-inline-flex gap-1 hidden">
         <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button"
           aria-expanded="false" aria-controls="multiCollapseExample1">
-          Clothing Journal Entry
+          Journal Entry
         </a>
       </p>
       <p class="d-inline-flex gap-1 hidden">
         <a id="weapons" class="btn btn-primary">
           Explore
+        </a>
+      </p>
+      <p class="d-inline-flex gap-1 hidden">
+        <a href="#top_portion" class="btn btn-primary">
+          Top
         </a>
       </p>
 
@@ -218,7 +232,7 @@
 
       <p class="d-inline-flex gap-1 hidden">
         <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample2" role="button"
-          aria-expanded="false" aria-controls="multiCollapseExample2">Clothing Journal Entry
+          aria-expanded="false" aria-controls="multiCollapseExample2">Journal Entry
         </a>
       </p>
       <p class="d-inline-flex gap-1 hidden">
@@ -226,8 +240,15 @@
           Explore
         </a>
       </p>
+      <p class="d-inline-flex gap-1 hidden">
+        <a href="#top_portion" class="btn btn-primary">
+          Top
+        </a>
+      </p>
 
     </div>
+    <!-- <button class="btn custom-color-modes">🌞</button> -->
+
 
     <div class="row hidden">
       <div class="col">
@@ -291,7 +312,8 @@
 
       <p class="d-inline-flex gap-1 hidden">
         <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample3" role="button"
-          aria-expanded="false" aria-controls="multiCollapseExample3">Musical Instruments Journal Entry
+          aria-expanded="false" aria-controls="multiCollapseExample3">
+          Journal Entry
         </a>
       </p>
       <p class="d-inline-flex gap-1 hidden">
@@ -299,8 +321,14 @@
           Explore
         </a>
       </p>
-
+      <p class="d-inline-flex gap-1 hidden">
+        <a href="#top_portion" class="btn btn-primary">
+          Top
+        </a>
+      </p>
     </div>
+    <!-- <button class="btn custom-color-modes">🌞</button> -->
+
 
     <div class="row hidden">
       <div class="col">
@@ -362,7 +390,7 @@
 
   <section id="culture_description">
     <div class="header-botton hidden">
-      <h2 class="hidden">Culture</h2>
+      <h2 class="hidden">Culture & Artifacts</h2>
       <p class="hidden">Learn about the traditions and practices of our people.</p>
 
       <p class="d-inline-flex gap-1 hidden">
@@ -375,8 +403,16 @@
           Explore
         </a>
       </p>
+      <p class="d-inline-flex gap-1 hidden">
+        <a href="#top_portion" class="btn btn-primary">
+          Top
+        </a>
+      </p>
 
     </div>
+    <!-- <button class="btn custom-color-modes">🌞</button> -->
+
+
     <div class="row hidden">
       <div class="col">
         <!-- Empty column on the left -->
@@ -438,20 +474,27 @@
   <section id="paintings_description">
     <div class="header-botton hidden">
       <h2 class="hidden">Paintings</h2>
-      <p class="hidden">Explore the paintings.</p>
+      <p class="hidden">Explore the indegenous peoples used by our ancestors.</p>
 
       <p class="d-inline-flex gap-1 hidden">
         <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample5" role="button"
-          aria-expanded="false" aria-controls="multiCollapseExample5">Clothing Journal Entry
+          aria-expanded="false" aria-controls="multiCollapseExample5">Journal Entry
         </a>
       </p>
       <p class="d-inline-flex gap-1 hidden">
-        <a id="paintings" class="btn btn-primary">
+        <a id="people" class="btn btn-primary">
           Explore
+        </a>
+      </p>
+      <p class="d-inline-flex gap-1 hidden">
+        <a href="#top_portion" class="btn btn-primary">
+          Top
         </a>
       </p>
 
     </div>
+    <!-- <button class="btn custom-color-modes">🌞</button> -->
+
 
     <div class="row hidden">
       <div class="col">
@@ -487,7 +530,7 @@
                   <span class="visually-hidden">Next</span>
                 </button>
 
-                <!-- <button id="paintings" type="button" class="btn btn-primary">Explore</button> -->
+                <!-- <button id="people" type="button" class="btn btn-primary">Explore</button> -->
               </div>
 
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -526,8 +569,15 @@
           Explore
         </a>
       </p>
+      <p class="d-inline-flex gap-1 hidden">
+        <a href="#top_portion" class="btn btn-primary">
+          Top
+        </a>
+      </p>
 
     </div>
+    <!-- <button class="btn custom-color-modes">🌞</button> -->
+
 
     <div class="row hidden">
       <div class="col">
@@ -563,7 +613,6 @@
                   <span class="visually-hidden">Next</span>
                 </button>
 
-                <!-- <button id="people" type="button" class="btn btn-primary">Explore</button> -->
               </div>
 
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -577,8 +626,6 @@
                 neque libero vel ligula. Aenean ac erat et urna luctus gravida.
                 Donec pharetra lorem ut orci volutpat, a tristique mauris fermentum
               </p>
-              <!-- <a href="#" class="btn btn-primary">Explore more!</a> -->
-              <!-- <button id="clothing" type="button" class="btn btn-primary">Explore</button> -->
             </div>
           </div>
         </div>
@@ -702,23 +749,30 @@
 
   <script>
     document.addEventListener("DOMContentLoaded", function () {
-      const toggleBtn = document.getElementById("theme-toggle");
+      const toggleBtns = document.querySelectorAll(".custom-color-modes");
       const currentTheme = localStorage.getItem("theme");
 
       // Apply saved theme preference
       if (currentTheme) {
         document.documentElement.setAttribute("data-theme", currentTheme);
-        toggleBtn.textContent = currentTheme === "dark" ? "🌞 " : "🌙 ";
+        toggleBtns.forEach(btn => {
+          btn.textContent = currentTheme === "dark" ? "🌞 " : "🌙 ";
+        });
       }
 
       // Toggle theme on button click
-      toggleBtn.addEventListener("click", function () {
-        let newTheme = document.documentElement.getAttribute("data-theme") === "dark" ? "light" : "dark";
-        document.documentElement.setAttribute("data-theme", newTheme);
-        localStorage.setItem("theme", newTheme);
-        toggleBtn.textContent = newTheme === "dark" ? "🌞 " : "🌙 ";
+      toggleBtns.forEach(btn => {
+        btn.addEventListener("click", function () {
+          let newTheme = document.documentElement.getAttribute("data-theme") === "dark" ? "light" : "dark";
+          document.documentElement.setAttribute("data-theme", newTheme);
+          localStorage.setItem("theme", newTheme);
+          toggleBtns.forEach(button => {
+            button.textContent = newTheme === "dark" ? "🌞 " : "🌙 ";
+          });
+        });
       });
     });
+
   </script>
 
 

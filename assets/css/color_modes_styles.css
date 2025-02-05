@@ -81,9 +81,13 @@ header {
 nav {
   position: fixed;
   top: 30px;
-  right: 50px;
+  left: 0;
+  right: 0;
+  width: max-content; /* Ensures nav wraps around content */
+  margin: auto;
   z-index: 1000;
 }
+
 
 nav ul {
   list-style: none;
@@ -110,7 +114,7 @@ nav a {
   }
 
   nav {
-    position: static;
+    position: fixed;
     margin-top: 20px;
   }
 
