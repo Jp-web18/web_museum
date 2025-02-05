@@ -29,17 +29,17 @@
 }
 
 [data-theme="dark"] {
-  --bg-color: rgb(20, 20, 20, 0.8);  /* Dark Mode */
+  --bg-color: rgb(0, 0, 0, 0.9);  /* Dark Mode */
   --text-color: white;
-  --header-bg: rgba(0, 0, 0, 0.8);
+  --header-bg: rgba(0, 0, 0, 0.9);  
 
   .flex-column a {
     color: white !important;
   }
 
-  .cutom-colo-modes {
+  /* .cutom-color-modes {
     color: white !important;
-  }
+  } */
 }
 
 /* Apply the background and text colors globally */
@@ -234,9 +234,11 @@ section h2 {
 
 /* Ensuring consistent background for the entire card */
 .card {
-  background-color: var(--bg-color) !important;
+  /* background-color: var(--bg-color) !important;
   color: var(--text-color) !important;
-  border: 1px solid rgba(255, 255, 255, 0.1); /* Optional border */
+  border: 1px solid rgba(255, 255, 255, 0.1); Optional border */
+  margin-top: -180px;  
+  background-color: transparent !important;
 }
 
 .card-header {
