@@ -29,3 +29,7 @@
 .card-body {
   padding: 22px 22px;
 }
+
+.flex-column, .col-6 h5 {
+  text-align: left;
+}
