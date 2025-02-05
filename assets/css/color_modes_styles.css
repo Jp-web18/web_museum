@@ -15,23 +15,29 @@
 
 /***** Override Theme When User Manually Switches *****/
 [data-theme="light"] {
-  --bg-color: rgb(255, 255, 255, 0.8);  /* Light Mode */
+  --bg-color: rgb(255, 255, 255, 0.8); /* Light Mode */
   --text-color: rgb(0, 0, 0);
   --header-bg: rgba(255, 255, 255, 0.9);
   /* Ensure button text is dark in light mode */
   .custom-button a {
-    background-color: rgb(255, 255, 255) !important; /* Adjust this color to your preference */
+    background-color: rgb(
+      255,
+      255,
+      255
+    ) !important; /* Adjust this color to your preference */
     border-color: rgb(20, 20, 20) !important;
-    color: rgb(20, 20, 20) !important; /* Ensure button text is dark in light mode */
+    color: rgb(
+      20,
+      20,
+      20
+    ) !important; /* Ensure button text is dark in light mode */
   }
-
-  
 }
 
 [data-theme="dark"] {
-  --bg-color: rgb(0, 0, 0, 0.9);  /* Dark Mode */
+  --bg-color: rgb(0, 0, 0, 0.9); /* Dark Mode */
   --text-color: white;
-  --header-bg: rgba(0, 0, 0, 0.9);  
+  --header-bg: rgba(0, 0, 0, 0.9);
 
   .flex-column a {
     color: white !important;
@@ -43,7 +49,8 @@
 }
 
 /* Apply the background and text colors globally */
-html, body {
+html,
+body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: var(--bg-color);
@@ -221,7 +228,8 @@ section h2 {
   padding: 40px;
 }
 
-#paintings h2, #paintings p {
+#paintings h2,
+#paintings p {
   color: yellow;
 }
 
@@ -237,12 +245,14 @@ section h2 {
   /* background-color: var(--bg-color) !important;
   color: var(--text-color) !important;
   border: 1px solid rgba(255, 255, 255, 0.1); Optional border */
-  margin-top: -180px;  
+  margin-top: -180px;
   background-color: transparent !important;
 }
 
 .card-header {
-  background-color: var(--bg-color) !important;  /* Explicitly setting background for card header */
+  background-color: var(
+    --bg-color
+  ) !important; /* Explicitly setting background for card header */
   color: var(--text-color) !important;
 }
 
@@ -252,7 +262,10 @@ section h2 {
   width: 560px;
   height: 640px;
   /* background-color: gray; */
+<<<<<<< HEAD
+=======
   /* padding: 25px 100px;  Padding inside the card */
+>>>>>>> 710c1d527a0716b12fe89ec3d6eb9725b7876843
   margin-top: -60px;
   border: none; /* Remove border */
   color: white; /* Text color */
@@ -267,7 +280,6 @@ section h2 {
   color: var(--text-color) !important;
 } */
 
-
 .btn-primary {
   background-color: var(--header-bg) !important;
   border-color: var(--header-bg) !important;
@@ -275,7 +287,11 @@ section h2 {
 
 /* Fix for consistent button background in light and dark modes */
 [data-theme="light"] .btn-primary {
-  background-color: rgb(255, 255, 255) !important; /* Adjust this color to your preference */
+  background-color: rgb(
+    255,
+    255,
+    255
+  ) !important; /* Adjust this color to your preference */
   border-color: rgb(20, 20, 20) !important;
   color: rgb(20, 20, 20);
 }
@@ -287,7 +303,12 @@ section h2 {
 }
 
 .btn-primary:hover {
-  background-color: rgba(30, 30, 30, 0.8) !important; /* Slightly darker for dark mode */
+  background-color: rgba(
+    30,
+    30,
+    30,
+    0.8
+  ) !important; /* Slightly darker for dark mode */
 }
 
 /* Footer */
