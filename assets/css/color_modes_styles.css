@@ -252,12 +252,13 @@ section h2 {
   width: 560px;
   height: 640px;
   /* background-color: gray; */
-  padding: 25px 25px; /* Padding inside the card */
+  /* padding: 25px 100px;  Padding inside the card */
   margin-top: -60px;
   border: none; /* Remove border */
   color: white; /* Text color */
   box-sizing: border-box;
   border-radius: 18px; /* Rounded corners */
+  /* padding: 30px; */
 }
 
 /* Optional: If you have card titles or headers, make sure they're styled the same */
